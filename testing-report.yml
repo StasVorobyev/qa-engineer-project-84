@@ -212,6 +212,10 @@
   status: fail
   
   - summary: |
+    (OP27)Проверка адаптивности интерфейса при изменении разрешения экрана
+  status: fail
+  
+  - summary: |
     (FF1)Проверка кнопки "Store"
   status: fail
   
@@ -313,6 +317,10 @@
 
   - summary: |
     (FF26)Проверка ссылки Hexlet внизу страницы
+  status: fail
+  
+  - summary: |
+    (FF27)Проверка адаптивности интерфейса при изменении разрешения экрана
   status: fail
   
   - summary: |
