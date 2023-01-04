@@ -1,23 +1,23 @@
 ---
 - summary: |
     (CH1)Проверка кнопки "Store"
-  status: fail
+  status: pass
   
 - summary: |
     (CH2)Проверка кнопки "Cart"
-  status: fail
+  status: pass
     
 - summary: |
     (CH3)Проверка переключения языков
-  status: fail
+  status: pass
   
   - summary: |
     (CH4)Проверка поисковой строки(позитивная)
-  status: fail
+  status: pass
   
   - summary: |
     (CH5)Проверка поисковой строки(спец. символ)
-  status: fail
+  status: pass
   
   - summary: |
     (CH6)Проверка поисковой строки(скрипт)
@@ -78,29 +78,33 @@
   - summary: |
     (CH20)Проверка остаётся ли товар в корзине после закрытия и открытия
   status: fail
-  
+ 
   - summary: |
-    (CH21)Проверка оформления заказа после удаления одной позиции из корзины
+    (CH21)Проверка кнопки "Continue shopping"
   status: fail
   
   - summary: |
-    (CH22)Проверка кнопки "Continue shopping"
+    (CH22)Проверка кнопки "Clear cart"
   status: fail
   
   - summary: |
-    (CH23)Проверка кнопки "Clear cart"
+    (CH23)Проверка кнопки "Chekout"
   status: fail
   
   - summary: |
-    (CH24)Проверка кнопки "Chekout"
+    (CH24)Проверка кнопки "Delete" в корзине
   status: fail
-  
+
   - summary: |
-    (CH25)Проверка кнопки "Delete" в корзине
+    (CH25)Проверка оформления заказа после удаления одной позиции из корзины
   status: fail
-  
+
   - summary: |
     (CH26)Проверка ссылки Hexlet внизу страницы
+  status: fail
+  
+  - summary: |
+    (CH27)Проверка адаптивности интерфейса при изменении разрешения экрана
   status: fail
   
 - summary: |
@@ -182,25 +186,25 @@
   - summary: |
     (OP20)Проверка остаётся ли товар в корзине после закрытия и открытия
   status: fail
-  
+ 
   - summary: |
-    (OP21)Проверка оформления заказа после удаления одной позиции из корзины
+    (OP21)Проверка кнопки "Continue shopping"
   status: fail
   
   - summary: |
-    (OP22)Проверка кнопки "Continue shopping"
+    (OP22)Проверка кнопки "Clear cart"
   status: fail
   
   - summary: |
-    (OP23)Проверка кнопки "Clear cart"
+    (OP23)Проверка кнопки "Chekout"
   status: fail
   
   - summary: |
-    (OP24)Проверка кнопки "Chekout"
+    (OP24)Проверка кнопки "Delete" в корзине
   status: fail
   
   - summary: |
-    (OP25)Проверка кнопки "Delete" в корзине
+    (OP25)Проверка оформления заказа после удаления одной позиции из корзины
   status: fail
   
   - summary: |
@@ -288,25 +292,25 @@
   status: fail
   
   - summary: |
-    (FF21)Проверка оформления заказа после удаления одной позиции из корзины
+    (FF21)Проверка кнопки "Continue shopping"
   status: fail
   
   - summary: |
-    (FF22)Проверка кнопки "Continue shopping"
+    (FF22)Проверка кнопки "Clear cart"
   status: fail
   
   - summary: |
-    (FF23)Проверка кнопки "Clear cart"
+    (FF23)Проверка кнопки "Chekout"
   status: fail
   
   - summary: |
-    (FF24)Проверка кнопки "Chekout"
+    (FF24)Проверка кнопки "Delete" в корзине
   status: fail
-  
+
   - summary: |
-    (FF25)Проверка кнопки "Delete" в корзине
+    (FF25)Проверка оформления заказа после удаления одной позиции из корзины
   status: fail
-  
+
   - summary: |
     (FF26)Проверка ссылки Hexlet внизу страницы
   status: fail
@@ -390,27 +394,27 @@
   - summary: |
     (M20)Проверка остаётся ли товар в корзине после закрытия и открытия
   status: fail
-  
+
   - summary: |
-    (M21)Проверка оформления заказа после удаления одной позиции из корзины
+    (M21)Проверка кнопки "Continue shopping"
   status: fail
   
   - summary: |
-    (M22)Проверка кнопки "Continue shopping"
+    (M22)Проверка кнопки "Clear cart"
   status: fail
   
   - summary: |
-    (M23)Проверка кнопки "Clear cart"
+    (M23)Проверка кнопки "Chekout"
   status: fail
   
   - summary: |
-    (M24)Проверка кнопки "Chekout"
+    (M24)Проверка кнопки "Delete" в корзине
   status: fail
-  
+
   - summary: |
-    (M25)Проверка кнопки "Delete" в корзине
+    (M25)Проверка оформления заказа после удаления одной позиции из корзины
   status: fail
-  
+
   - summary: |
     (M26)Проверка ссылки Hexlet внизу страницы
   status: fail
