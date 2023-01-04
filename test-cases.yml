@@ -760,8 +760,8 @@
   test-data: |
     Нет данных
   steps:
-    - Нажать сочетание клавишь Ctrl+Shift+M
-    - После открытия DevTools нажать Ctrl+Shift+C
+    - Нажать сочетание клавишь Ctrl+Shift+I
+    - После открытия DevTools нажать Ctrl+Shift+M или нажать на кнопку Toggle Device Toolbar
     - Выставить разрешение экрана 1280х800
   expected-result: |
     Элементы интерфейса визуально не изменились
