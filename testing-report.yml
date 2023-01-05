@@ -21,43 +21,43 @@
   
   - summary: |
     (CH6)Проверка поисковой строки(скрипт)
-  status: fail
+  status: pass
   
   - summary: |
     (CH7)Проверка поисковой строки(кириллица)
-  status: fail
+  status: pass
   
   - summary: |
     (CH8)Проверка настройки фильтра "Category"
-  status: fail
+  status: pass
   
   - summary: |
     (CH9)Проверка настройки фильтра по определенному бренду
-  status: fail
+  status: pass
   
   - summary: |
     (CH10)Проверка настройки фильтра по нескольким брендам
-  status: fail
+  status: pass
   
   - summary: |
     (CH11)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: fail
+  status: pass
   
   - summary: |
     (CH12)Проверка чекбокса "In stock"
+  status: pass
+  
+  - summary: |
+    (CH13)Проверка фильтра по цене (минимальная)
+  status: pass
+  
+  - summary: |
+    (CH14)Проверка фильтра по цене (средняя)
   status: fail
   
   - summary: |
-    (CH13)Проверка фильтра по цене
-  status: fail
-  
-  - summary: |
-    (CH14)Проверка фильтра по цене
-  status: fail
-  
-  - summary: |
-    (CH15)Проверка фильтра по цене
-  status: fail
+    (CH15)Проверка фильтра по цене (максимальная)
+  status: pass
   
   - summary: |
     (CH16)Проверка основных элементов UI на грамматические ошибки
@@ -65,43 +65,43 @@
   
   - summary: |
     (CH17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
+  status: pass
   
   - summary: |
     (CH18)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: fail
+  status: pass
   
   - summary: |
     (CH19)Проверка кнопки "Add to Cart" со страницы товара 
-  status: fail
+  status: pass
   
   - summary: |
-    (CH20)Проверка остаётся ли товар в корзине после закрытия и открытия
+    (CH20)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
   status: fail
  
   - summary: |
     (CH21)Проверка кнопки "Continue shopping"
-  status: fail
+  status: pass
   
   - summary: |
     (CH22)Проверка кнопки "Clear cart"
-  status: fail
+  status: pass
   
   - summary: |
     (CH23)Проверка кнопки "Chekout"
-  status: fail
+  status: pass
   
   - summary: |
     (CH24)Проверка кнопки "Delete" в корзине
-  status: fail
+  status: pass
 
   - summary: |
     (CH25)Проверка оформления заказа после удаления одной позиции из корзины
-  status: fail
+  status: pass
 
   - summary: |
     (CH26)Проверка ссылки Hexlet внизу страницы
-  status: fail
+  status: pass
   
   - summary: |
     (CH27)Проверка адаптивности интерфейса при изменении разрешения экрана
@@ -109,63 +109,63 @@
   
 - summary: |
     (OP1)Проверка кнопки "Store"
-  status: fail
+  status: pass
   
 - summary: |
     (OP2)Проверка кнопки "Cart"
-  status: fail
+  status: pass
     
 - summary: |
     (OP3)Проверка переключения языков
-  status: fail
+  status: pass
   
   - summary: |
     (OP4)Проверка поисковой строки(позитивная)
-  status: fail
+  status: pass
   
   - summary: |
     (OP5)Проверка поисковой строки(спец. символ)
-  status: fail
+  status: pass
   
   - summary: |
     (OP6)Проверка поисковой строки(скрипт)
-  status: fail
+  status: pass
   
   - summary: |
     (OP7)Проверка поисковой строки(кириллица)
-  status: fail
+  status: pass
   
   - summary: |
     (OP8)Проверка настройки фильтра "Category"
-  status: fail
+  status: pass
   
   - summary: |
     (OP9)Проверка настройки фильтра по определенному бренду
-  status: fail
+  status: pass
   
   - summary: |
     (OP10)Проверка настройки фильтра по нескольким брендам
-  status: fail
+  status: pass
   
   - summary: |
     (OP11)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: fail
+  status: pass
   
   - summary: |
     (OP12)Проверка чекбокса "In stock"
+  status: pass
+  
+  - summary: |
+    (OP13)Проверка фильтра по цене (минимальная)
+  status: pass
+  
+  - summary: |
+    (OP14)Проверка фильтра по цене (средняя)
   status: fail
   
   - summary: |
-    (OP13)Проверка фильтра по цене
-  status: fail
-  
-  - summary: |
-    (OP14)Проверка фильтра по цене
-  status: fail
-  
-  - summary: |
-    (OP15)Проверка фильтра по цене
-  status: fail
+    (OP15)Проверка фильтра по цене (максимальная)
+  status: pass
   
   - summary: |
     (OP16)Проверка основных элементов UI на грамматические ошибки
@@ -173,43 +173,43 @@
   
   - summary: |
     (OP17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
+  status: pass
   
   - summary: |
     (OP18)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: fail
+  status: pass
   
   - summary: |
     (OP19)Проверка кнопки "Add to Cart" со страницы товара 
-  status: fail
+  status: pass
   
   - summary: |
-    (OP20)Проверка остаётся ли товар в корзине после закрытия и открытия
+    (OP20)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
   status: fail
  
   - summary: |
     (OP21)Проверка кнопки "Continue shopping"
-  status: fail
+  status: pass
   
   - summary: |
     (OP22)Проверка кнопки "Clear cart"
-  status: fail
+  status: pass
   
   - summary: |
     (OP23)Проверка кнопки "Chekout"
-  status: fail
+  status: pass
   
   - summary: |
     (OP24)Проверка кнопки "Delete" в корзине
-  status: fail
+  status: pass
   
   - summary: |
     (OP25)Проверка оформления заказа после удаления одной позиции из корзины
-  status: fail
+  status: pass
   
   - summary: |
     (OP26)Проверка ссылки Hexlet внизу страницы
-  status: fail
+  status: pass
   
   - summary: |
     (OP27)Проверка адаптивности интерфейса при изменении разрешения экрана
@@ -217,55 +217,55 @@
   
   - summary: |
     (FF1)Проверка кнопки "Store"
-  status: fail
+  status: pass
   
 - summary: |
     (FF2)Проверка кнопки "Cart"
-  status: fail
+  status: pass
     
 - summary: |
     (FF3)Проверка переключения языков
-  status: fail
+  status: pass
   
   - summary: |
     (FF4)Проверка поисковой строки(позитивная)
-  status: fail
+  status: pass
   
   - summary: |
     (FF5)Проверка поисковой строки(спец. символ)
-  status: fail
+  status: pass
   
   - summary: |
     (FF6)Проверка поисковой строки(скрипт)
-  status: fail
+  status: pass
   
   - summary: |
     (FF7)Проверка поисковой строки(кириллица)
-  status: fail
+  status: pass
   
   - summary: |
     (FF8)Проверка настройки фильтра "Category"
-  status: fail
+  status: pass
   
   - summary: |
     (FF9)Проверка настройки фильтра по определенному бренду
-  status: fail
+  status: pass
   
   - summary: |
     (FF10)Проверка настройки фильтра по нескольким брендам
-  status: fail
+  status: pass
   
   - summary: |
     (FF11)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: fail
+  status: pass
   
   - summary: |
     (FF12)Проверка чекбокса "In stock"
-  status: fail
+  status: pass
   
   - summary: |
     (FF13)Проверка фильтра по цене
-  status: fail
+  status: pass
   
   - summary: |
     (FF14)Проверка фильтра по цене
@@ -273,7 +273,7 @@
   
   - summary: |
     (FF15)Проверка фильтра по цене
-  status: fail
+  status: pass
   
   - summary: |
     (FF16)Проверка основных элементов UI на грамматические ошибки
@@ -281,43 +281,43 @@
   
   - summary: |
     (FF17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
+  status: pass
   
   - summary: |
     (FF18)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: fail
+  status: pass
   
   - summary: |
     (FF19)Проверка кнопки "Add to Cart" со страницы товара 
-  status: fail
+  status: pass
   
   - summary: |
-    (FF20)Проверка остаётся ли товар в корзине после закрытия и открытия
+    (FF20)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
   status: fail
   
   - summary: |
     (FF21)Проверка кнопки "Continue shopping"
-  status: fail
+  status: pass
   
   - summary: |
     (FF22)Проверка кнопки "Clear cart"
-  status: fail
+  status: pass
   
   - summary: |
     (FF23)Проверка кнопки "Chekout"
-  status: fail
+  status: pass
   
   - summary: |
     (FF24)Проверка кнопки "Delete" в корзине
-  status: fail
+  status: pass
 
   - summary: |
     (FF25)Проверка оформления заказа после удаления одной позиции из корзины
-  status: fail
+  status: pass
 
   - summary: |
     (FF26)Проверка ссылки Hexlet внизу страницы
-  status: fail
+  status: pass
   
   - summary: |
     (FF27)Проверка адаптивности интерфейса при изменении разрешения экрана
@@ -325,55 +325,55 @@
   
   - summary: |
     (M1)Проверка кнопки "Store"
-  status: fail
+  status: pass
   
 - summary: |
     (M2)Проверка кнопки "Cart"
-  status: fail
+  status: pass
     
 - summary: |
     (M3)Проверка переключения языков
-  status: fail
+  status: pass
   
   - summary: |
     (M4)Проверка поисковой строки(позитивная)
-  status: fail
+  status: pass
   
   - summary: |
     (M5)Проверка поисковой строки(спец. символ)
-  status: fail
+  status: pass
   
   - summary: |
     (M6)Проверка поисковой строки(скрипт)
-  status: fail
+  status: pass
   
   - summary: |
     (M7)Проверка поисковой строки(кириллица)
-  status: fail
+  status: pass
   
   - summary: |
     (M8)Проверка настройки фильтра "Category"
-  status: fail
+  status: pass
   
   - summary: |
     (M9)Проверка настройки фильтра по определенному бренду
-  status: fail
+  status: pass
   
   - summary: |
     (M10)Проверка настройки фильтра по нескольким брендам
-  status: fail
+  status: pass
   
   - summary: |
     (M11)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: fail
+  status: pass
   
   - summary: |
     (M12)Проверка чекбокса "In stock"
-  status: fail
+  status: pass
   
   - summary: |
     (M13)Проверка фильтра по цене
-  status: fail
+  status: pass
   
   - summary: |
     (M14)Проверка фильтра по цене
@@ -381,7 +381,7 @@
   
   - summary: |
     (M15)Проверка фильтра по цене
-  status: fail
+  status: pass
   
   - summary: |
     (M16)Проверка основных элементов UI на грамматические ошибки
@@ -389,43 +389,43 @@
   
   - summary: |
     (M17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
+  status: pass
   
   - summary: |
     (M18)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: fail
+  status: pass
   
   - summary: |
     (M19)Проверка кнопки "Add to Cart" со страницы товара 
-  status: fail
+  status: pass
   
   - summary: |
-    (M20)Проверка остаётся ли товар в корзине после закрытия и открытия
+    (M20)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
   status: fail
 
   - summary: |
     (M21)Проверка кнопки "Continue shopping"
-  status: fail
+  status: pass
   
   - summary: |
     (M22)Проверка кнопки "Clear cart"
-  status: fail
+  status: pass
   
   - summary: |
     (M23)Проверка кнопки "Chekout"
-  status: fail
+  status: pass
   
   - summary: |
     (M24)Проверка кнопки "Delete" в корзине
-  status: fail
+  status: pass
 
   - summary: |
     (M25)Проверка оформления заказа после удаления одной позиции из корзины
-  status: fail
+  status: pass
 
   - summary: |
     (M26)Проверка ссылки Hexlet внизу страницы
-  status: fail
+  status: pass
   
   - summary: |
     (M27)Проверка адаптивности интерфейса при изменении разрешения экрана
