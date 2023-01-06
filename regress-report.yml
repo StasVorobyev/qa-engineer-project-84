@@ -94,7 +94,7 @@ test-cases:
   
 - summary: |
     (CH24)Проверка кнопки "Clear cart"
-  status: fail #при переходе на главную товары возвращаются в корзину
+  status: fail 
   
 - summary: |
     (CH25)Проверка кнопки "Chekout"
@@ -134,11 +134,11 @@ test-cases:
   
 - summary: |
     (OP4)Проверка поисковой строки(позитивная)
-  status: fail #съезжает интерфейс
+  status: fail
   
 - summary: |
     (OP5)Проверка поисковой строки(спец. символ)
-  status: fail #выдаёт результат
+  status: fail
   
 - summary: |
     (OP6)Проверка поисковой строки(скрипт)
@@ -146,15 +146,15 @@ test-cases:
   
 - summary: |
     (OP7)Проверка поисковой строки(кириллица)
-  status: fail #выдаёт результат
+  status: fail
   
 - summary: |
     (OP8)Проверка настройки фильтра "Category"
-  status: fail #пропадает кнопка next
+  status: fail
 
 - summary: |
     (OP9)Проверка очищения фильтра "Category"
-  status: fail #пропадает кнопка next
+  status: fail
 
 - summary: |
     (OP10)Проверка настройки фильтра по определенному бренду
@@ -170,7 +170,7 @@ test-cases:
   
 - summary: |
     (OP13)Проверка чекбокса "In stock"
-  status: fail #выдаёт весь товар
+  status: fail
   
 - summary: |
     (OP14)Проверка фильтра по цене (минимальная)
@@ -178,11 +178,11 @@ test-cases:
   
 - summary: |
     (OP15)Проверка фильтра по цене (средняя)
-  status: fail #Фильтрует по первоначальной цене
+  status: fail
   
 - summary: |
     (OP16)Проверка фильтра по цене (максимальная)
-  status: fail #выдаёт весь товар
+  status: fail
 
 - summary: |
     (OP17)Проверка фильтра по цене (отрицательное значение)
@@ -214,7 +214,7 @@ test-cases:
   
 - summary: |
     (OP24)Проверка кнопки "Clear cart"
-  status: fail #при переходе на главную товары возвращаются в корзину
+  status: fail
   
 - summary: |
     (OP25)Проверка кнопки "Chekout"
@@ -254,11 +254,11 @@ test-cases:
   
 - summary: |
     (FF4)Проверка поисковой строки(позитивная)
-  status: fail #съезжает интерфейс
+  status: fail
   
 - summary: |
     (FF5)Проверка поисковой строки(спец. символ)
-  status: fail #выдаёт результат
+  status: fail
   
 - summary: |
     (FF6)Проверка поисковой строки(скрипт)
@@ -266,15 +266,15 @@ test-cases:
   
 - summary: |
     (FF7)Проверка поисковой строки(кириллица)
-  status: fail #выдаёт результат
+  status: fail
   
 - summary: |
     (FF8)Проверка настройки фильтра "Category"
-  status: fail #пропадает кнопка next
+  status: fail
 
 - summary: |
     (FF9)Проверка очищения фильтра "Category"
-  status: fail #пропадает кнопка next
+  status: fail
 
 - summary: |
     (FF10)Проверка настройки фильтра по определенному бренду
@@ -290,7 +290,7 @@ test-cases:
   
 - summary: |
     (FF13)Проверка чекбокса "In stock"
-  status: fail #выдаёт весь товар
+  status: fail
   
 - summary: |
     (FF14)Проверка фильтра по цене (минимальная)
@@ -298,11 +298,11 @@ test-cases:
   
 - summary: |
     (FF15)Проверка фильтра по цене (средняя)
-  status: fail #Фильтрует по первоначальной цене
+  status: fail
   
 - summary: |
     (FF16)Проверка фильтра по цене (максимальная)
-  status: fail #выдаёт весь товар
+  status: fail
 
 - summary: |
     (FF17)Проверка фильтра по цене (отрицательное значение)
@@ -334,7 +334,7 @@ test-cases:
   
 - summary: |
     (FF24)Проверка кнопки "Clear cart"
-  status: fail #при переходе на главную товары возвращаются в корзину
+  status: fail
   
 - summary: |
     (FF25)Проверка кнопки "Chekout"
@@ -418,11 +418,11 @@ test-cases:
   
 - summary: |
     (M15)Проверка фильтра по цене (средняя)
-  status: fail #выдаёт неверный товар
+  status: fail
   
 - summary: |
     (M16)Проверка фильтра по цене (максимальная)
-  status: fail #выдаёт неверный товар
+  status: fail
 
 - summary: |
     (M17)Проверка фильтра по цене (отрицательное значение)
