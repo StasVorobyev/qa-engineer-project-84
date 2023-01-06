@@ -47,7 +47,7 @@
   test-data: |
     Нет данных
   steps:
-    - Вписываем в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
+    - Вписать в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
   expected-result: |
     На странице каталога отображается товар "Non-Alcoholic Concentrated Perfume Oil"
     
@@ -482,7 +482,7 @@
   test-data: |
     Нет данных
   steps:
-    - Вписываем в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
+    - Вписать в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
   expected-result: |
     На странице каталога отображается товар "Non-Alcoholic Concentrated Perfume Oil"
     
@@ -916,7 +916,7 @@
   test-data: |
     Нет данных
   steps:
-    - Вписываем в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
+    - Вписать в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
   expected-result: |
     На странице каталога отображается товар "Non-Alcoholic Concentrated Perfume Oil"
     
@@ -1349,7 +1349,7 @@
   test-data: |
     Нет данных
   steps:
-    - Вписываем в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
+    - Вписать в поисковую строку запрос "Non-Alcoholic Concentrated Perfume Oil"
   expected-result: |
     На странице каталога отображается товар "Non-Alcoholic Concentrated Perfume Oil"
     
