@@ -69,7 +69,7 @@
   
   - summary: |
     (CH17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: pass
+  status: fail
   
   - summary: |
     (CH18)Проверка кнопки "Add to Cart" со страницы каталога 
@@ -181,7 +181,7 @@
   
   - summary: |
     (OP17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: pass
+  status: fail
   
   - summary: |
     (OP18)Проверка кнопки "Add to Cart" со страницы каталога 
@@ -293,7 +293,7 @@
   
   - summary: |
     (FF17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: pass
+  status: fail
   
   - summary: |
     (FF18)Проверка кнопки "Add to Cart" со страницы каталога 
@@ -405,7 +405,7 @@
   
   - summary: |
     (M17)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: pass
+  status: fail
   
   - summary: |
     (M18)Проверка кнопки "Add to Cart" со страницы каталога 
