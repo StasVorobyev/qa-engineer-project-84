@@ -319,7 +319,7 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Chekout
+    - Нажать на кнопку Chekout
   expected-result: |
     Заказ с товарами iPhone 9 и iPhone X оформлен
     
@@ -704,7 +704,7 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Chekout
+    - Нажать на кнопку Chekout
   expected-result: |
     Заказ с товарами iPhone 9 и iPhone X оформлен
     
@@ -1089,7 +1089,7 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Chekout
+    - Нажать на кнопку Chekout
   expected-result: |
     Заказ с товарами iPhone 9 и iPhone X оформлен
     
@@ -1496,7 +1496,7 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Chekout
+    - Нажать на кнопку Chekout
   expected-result: |
     Заказ с товарами iPhone 9 и iPhone X оформлен
     
