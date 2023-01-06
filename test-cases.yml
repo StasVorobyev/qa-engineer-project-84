@@ -336,7 +336,8 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Clear cart
+    - Нажать на кнопку Clear cart
+    - Нажать кнопку Store
   expected-result: |
     В корзине не должно быть товаров
     
@@ -770,7 +771,8 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Clear cart
+    - Нажать на кнопку Clear cart
+    - Нажать кнопку Store
   expected-result: |
     В корзине не должно быть товаров
     
@@ -1204,7 +1206,8 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Clear cart
+    - Нажать на кнопку Clear cart
+    - Нажать кнопку Store
   expected-result: |
     В корзине не должно быть товаров
     
@@ -1638,7 +1641,8 @@
   test-data: |
     Нет данных
   steps:
-    - Нажимаем на кнопку Clear cart
+    - Нажать на кнопку Clear cart
+    - Нажать кнопку Store
   expected-result: |
     В корзине не должно быть товаров
     
