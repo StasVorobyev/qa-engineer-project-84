@@ -1,1258 +1,1270 @@
 ---
 test-cases:
-- summary: |
-    (CH1)Проверка кнопки "Store"
-  status: pass
-  
-- summary: |
-    (CH2)Проверка кнопки "Cart"
-  status: pass
+  - summary: |
+      (CH1)Проверка кнопки "Store"
+    status: pass
     
-- summary: |
-    (CH3)Проверка переключения языков
-  status: pass
-  
-- summary: |
-    (CH4)Проверка поисковой строки(позитивная)
-  status: fail
-  
-- summary: |
-    (CH5)Проверка поисковой строки(спец. символ)
-  status: fail
-  
-- summary: |
-    (CH6)Проверка поисковой строки(скрипт)
-  status: pass
-  
-- summary: |
-    (CH7)Проверка поисковой строки(кириллица)
-  status: fail
-  
-- summary: |
-    (CH8)Проверка настройки фильтра "Category"
-  status: fail
-
-- summary: |
-    (CH9)Проверка очищения фильтра "Category"
-  status: fail
-
-- summary: |
-    (CH10)Проверка настройки фильтра по определенному бренду
-  status: pass
-  
-- summary: |
-    (CH11)Проверка настройки фильтра по нескольким брендам
-  status: pass
-  
-- summary: |
-    (CH12)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: pass
-  
-- summary: |
-    (CH13)Проверка чекбокса "In stock"
-  status: fail
-  
-- summary: |
-    (CH14)Проверка фильтра по цене (минимальная)
-  status: pass
-  
-- summary: |
-    (CH15)Проверка фильтра по цене (средняя)
-  status: fail
-  
-- summary: |
-    (CH16)Проверка фильтра по цене (максимальная)
-  status: fail
-
-- summary: |
-    (CH17)Проверка фильтра по цене (отрицательное значение)
-  status: fail
-
-- summary: |
-    (CH18)Проверка основных элементов UI на грамматические ошибки
-  status: fail
-  
-- summary: |
-    (CH19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
-  
-- summary: |
-    (CH20)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: pass
-  
-- summary: |
-    (CH21)Проверка кнопки "Add to Cart" со страницы товара 
-  status: pass
-  
-- summary: |
-    (CH22)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
-  status: fail
- 
-- summary: |
-    (CH23)Проверка кнопки "Continue shopping"
-  status: pass
-  
-- summary: |
-    (CH24)Проверка кнопки "Clear cart"
-  status: fail 
-  
-- summary: |
-    (CH25)Проверка кнопки "Chekout"
-  status: pass
-  
-- summary: |
-    (CH26)Проверка кнопки "Delete" в корзине
-  status: pass
-
-- summary: |
-    (CH27)Проверка оформления заказа после удаления одной позиции из корзины
-  status: pass
-
-- summary: |
-    (CH28)Проверка очистки корзины после оформления заказа
-  status: fail
-
-- summary: |
-    (CH29)Проверка ссылки Hexlet внизу страницы
-  status: pass
-  
-- summary: |
-    (CH30)Проверка адаптивности интерфейса при изменении разрешения экрана
-  status: pass
-  
-- summary: |
-    (OP1)Проверка кнопки "Store"
-  status: pass
-  
-- summary: |
-    (OP2)Проверка кнопки "Cart"
-  status: pass
+  - summary: |
+      (CH2)Проверка кнопки "Cart"
+    status: pass
     
-- summary: |
-    (OP3)Проверка переключения языков
-  status: pass
-  
-- summary: |
-    (OP4)Проверка поисковой строки(позитивная)
-  status: fail
-  
-- summary: |
-    (OP5)Проверка поисковой строки(спец. символ)
-  status: fail
-  
-- summary: |
-    (OP6)Проверка поисковой строки(скрипт)
-  status: pass
-  
-- summary: |
-    (OP7)Проверка поисковой строки(кириллица)
-  status: fail
-  
-- summary: |
-    (OP8)Проверка настройки фильтра "Category"
-  status: fail
-
-- summary: |
-    (OP9)Проверка очищения фильтра "Category"
-  status: fail
-
-- summary: |
-    (OP10)Проверка настройки фильтра по определенному бренду
-  status: pass
-  
-- summary: |
-    (OP11)Проверка настройки фильтра по нескольким брендам
-  status: pass
-  
-- summary: |
-    (OP12)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: pass
-  
-- summary: |
-    (OP13)Проверка чекбокса "In stock"
-  status: fail
-  
-- summary: |
-    (OP14)Проверка фильтра по цене (минимальная)
-  status: pass
-  
-- summary: |
-    (OP15)Проверка фильтра по цене (средняя)
-  status: fail
-  
-- summary: |
-    (OP16)Проверка фильтра по цене (максимальная)
-  status: fail
-
-- summary: |
-    (OP17)Проверка фильтра по цене (отрицательное значение)
-  status: fail
-
-- summary: |
-    (OP18)Проверка основных элементов UI на грамматические ошибки
-  status: fail
-  
-- summary: |
-    (OP19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
-  
-- summary: |
-    (OP20)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: pass
-  
-- summary: |
-    (OP21)Проверка кнопки "Add to Cart" со страницы товара 
-  status: pass
-  
-- summary: |
-    (OP22)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
-  status: fail
- 
-- summary: |
-    (OP23)Проверка кнопки "Continue shopping"
-  status: pass
-  
-- summary: |
-    (OP24)Проверка кнопки "Clear cart"
-  status: fail
-  
-- summary: |
-    (OP25)Проверка кнопки "Chekout"
-  status: pass
-  
-- summary: |
-    (OP26)Проверка кнопки "Delete" в корзине
-  status: pass
-
-- summary: |
-    (OP27)Проверка оформления заказа после удаления одной позиции из корзины
-  status: pass
-
-- summary: |
-    (OP28)Проверка очистки корзины после оформления заказа
-  status: fail
-
-- summary: |
-    (OP29)Проверка ссылки Hexlet внизу страницы
-  status: pass
-  
-- summary: |
-    (OP30)Проверка адаптивности интерфейса при изменении разрешения экрана
-  status: pass
-  
-- summary: |
-    (FF1)Проверка кнопки "Store"
-  status: pass
-  
-- summary: |
-    (FF2)Проверка кнопки "Cart"
-  status: pass
+  - summary: |
+      (CH3)Проверка переключения языков
+    status: pass
     
-- summary: |
-    (FF3)Проверка переключения языков
-  status: pass
-  
-- summary: |
-    (FF4)Проверка поисковой строки(позитивная)
-  status: fail
-  
-- summary: |
-    (FF5)Проверка поисковой строки(спец. символ)
-  status: fail
-  
-- summary: |
-    (FF6)Проверка поисковой строки(скрипт)
-  status: pass
-  
-- summary: |
-    (FF7)Проверка поисковой строки(кириллица)
-  status: fail
-  
-- summary: |
-    (FF8)Проверка настройки фильтра "Category"
-  status: fail
-
-- summary: |
-    (FF9)Проверка очищения фильтра "Category"
-  status: fail
-
-- summary: |
-    (FF10)Проверка настройки фильтра по определенному бренду
-  status: pass
-  
-- summary: |
-    (FF11)Проверка настройки фильтра по нескольким брендам
-  status: pass
-  
-- summary: |
-    (FF12)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: pass
-  
-- summary: |
-    (FF13)Проверка чекбокса "In stock"
-  status: fail
-  
-- summary: |
-    (FF14)Проверка фильтра по цене (минимальная)
-  status: pass
-  
-- summary: |
-    (FF15)Проверка фильтра по цене (средняя)
-  status: fail
-  
-- summary: |
-    (FF16)Проверка фильтра по цене (максимальная)
-  status: fail
-
-- summary: |
-    (FF17)Проверка фильтра по цене (отрицательное значение)
-  status: fail
-
-- summary: |
-    (FF18)Проверка основных элементов UI на грамматические ошибки
-  status: fail
-  
-- summary: |
-    (FF19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
-  
-- summary: |
-    (FF20)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: pass
-  
-- summary: |
-    (FF21)Проверка кнопки "Add to Cart" со страницы товара 
-  status: pass
-  
-- summary: |
-    (FF22)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
-  status: fail
- 
-- summary: |
-    (FF23)Проверка кнопки "Continue shopping"
-  status: pass
-  
-- summary: |
-    (FF24)Проверка кнопки "Clear cart"
-  status: fail
-  
-- summary: |
-    (FF25)Проверка кнопки "Chekout"
-  status: pass
-  
-- summary: |
-    (FF26)Проверка кнопки "Delete" в корзине
-  status: pass
-
-- summary: |
-    (FF27)Проверка оформления заказа после удаления одной позиции из корзины
-  status: pass
-
-- summary: |
-    (FF28)Проверка очистки корзины после оформления заказа
-  status: fail
-
-- summary: |
-    (FF29)Проверка ссылки Hexlet внизу страницы
-  status: pass
-  
-- summary: |
-    (FF30)Проверка адаптивности интерфейса при изменении разрешения экрана
-  status: pass
-  
-- summary: |
-    (M1)Проверка кнопки "Store"
-  status: pass
-  
-- summary: |
-    (M2)Проверка кнопки "Cart"
-  status: pass
+  - summary: |
+      (CH4)Проверка поисковой строки(позитивная)
+    status: fail
     
-- summary: |
-    (M3)Проверка переключения языков
-  status: pass
-  
-- summary: |
-    (M4)Проверка поисковой строки(позитивная)
-  status: pass
-  
-- summary: |
-    (M5)Проверка поисковой строки(спец. символ)
-  status: fail
-  
-- summary: |
-    (M6)Проверка поисковой строки(скрипт)
-  status: pass
-  
-- summary: |
-    (M7)Проверка поисковой строки(кириллица)
-  status: fail
-  
-- summary: |
-    (M8)Проверка настройки фильтра "Category"
-  status: fail
-
-- summary: |
-    (M9)Проверка очищения фильтра "Category"
-  status: fail
-
-- summary: |
-    (M10)Проверка настройки фильтра по определенному бренду
-  status: pass
-  
-- summary: |
-    (M11)Проверка настройки фильтра по нескольким брендам
-  status: pass
-  
-- summary: |
-    (M12)Проверка фильтра по бренду с введнённым наименованием в поисковой
-  status: pass
-  
-- summary: |
-    (M13)Проверка чекбокса "In stock"
-  status: fail
-  
-- summary: |
-    (M14)Проверка фильтра по цене (минимальная)
-  status: pass
-  
-- summary: |
-    (M15)Проверка фильтра по цене (средняя)
-  status: fail
-  
-- summary: |
-    (M16)Проверка фильтра по цене (максимальная)
-  status: fail
-
-- summary: |
-    (M17)Проверка фильтра по цене (отрицательное значение)
-  status: fail
-
-- summary: |
-    (M18)Проверка основных элементов UI на грамматические ошибки
-  status: fail
-  
-- summary: |
-    (M19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-  status: fail
-  
-- summary: |
-    (M20)Проверка кнопки "Add to Cart" со страницы каталога 
-  status: pass
-  
-- summary: |
-    (M21)Проверка кнопки "Add to Cart" со страницы товара 
-  status: pass
-  
-- summary: |
-    (M22)Проверка остаётся ли товар в корзине после закрытия и открытия приложения
-  status: fail
-
-- summary: |
-    (M23)Проверка кнопки "Continue shopping"
-  status: pass
-  
-- summary: |
-    (M24)Проверка кнопки "Clear cart"
-  status: fail
-  
-- summary: |
-    (M25)Проверка кнопки "Chekout"
-  status: pass
-  
-- summary: |
-    (M26)Проверка кнопки "Delete" в корзине
-  status: pass
-
-- summary: |
-    (M27)Проверка оформления заказа после удаления одной позиции из корзины
-  status: pass
-
-- summary: |
-    (M28)Проверка очистки корзины после оформления заказа
-  status: fail
-
-- summary: |
-    (M29)Проверка ссылки Hexlet внизу страницы
-  status: pass
-  
-- summary: |
-    (M30)Проверка адаптивности интерфейса при изменении разрешения экрана
-  status: pass
-
+  - summary: |
+      (CH5)Проверка поисковой строки(спец. символ)
+    status: fail
+    
+  - summary: |
+      (CH6)Проверка поисковой строки(скрипт)
+    status: pass
+    
+  - summary: |
+      (CH7)Проверка поисковой строки(кириллица)
+    status: fail
+    
+  - summary: |
+      (CH8)Проверка настройки фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (CH9)Проверка очищения фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (CH10)Проверка настройки фильтра по определенному бренду
+    status: pass
+    
+  - summary: |
+      (CH11)Проверка настройки фильтра по нескольким брендам
+    status: pass
+    
+  - summary: |
+      (CH12)Проверка фильтра по бренду с введнённым наименованием в поисковой
+    status: pass
+    
+  - summary: |
+      (CH13)Проверка чекбокса "In stock"
+    status: fail
+    
+  - summary: |
+      (CH14)Проверка фильтра по цене (минимальная)
+    status: pass
+    
+  - summary: |
+      (CH15)Проверка фильтра по цене (средняя)
+    status: fail
+    
+  - summary: |
+      (CH16)Проверка фильтра по цене (максимальная)
+    status: fail
+    
+  - summary: |
+      (CH17)Проверка фильтра по цене (отрицательное значение)
+    status: fail
+    
+  - summary: |
+      (CH18)Проверка основных элементов UI на грамматические ошибки
+    status: fail
+    
+  - summary: |
+      (CH19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
+    status: fail
+    
+  - summary: |
+      (CH20)Проверка кнопки "Add to Cart" со страницы каталога 
+    status: pass
+    
+  - summary: |
+      (CH21)Проверка кнопки "Add to Cart" со страницы товара 
+    status: pass
+    
+  - summary: |
+      (CH22)Проверка остаётся ли товар в корзине после закрытия и открытия
+      приложения
+    status: fail
+    
+  - summary: |
+      (CH23)Проверка кнопки "Continue shopping"
+    status: pass
+    
+  - summary: |
+      (CH24)Проверка кнопки "Clear cart"
+    status: fail
+    
+  - summary: |
+      (CH25)Проверка кнопки "Chekout"
+    status: pass
+    
+  - summary: |
+      (CH26)Проверка кнопки "Delete" в корзине
+    status: pass
+    
+  - summary: |
+      (CH27)Проверка оформления заказа после удаления одной позиции из корзины
+    status: pass
+    
+  - summary: |
+      (CH28)Проверка очистки корзины после оформления заказа
+    status: fail
+    
+  - summary: |
+      (CH29)Проверка ссылки Hexlet внизу страницы
+    status: pass
+    
+  - summary: |
+      (CH30)Проверка адаптивности интерфейса при изменении разрешения экрана
+    status: pass
+    
+  - summary: |
+      (OP1)Проверка кнопки "Store"
+    status: pass
+    
+  - summary: |
+      (OP2)Проверка кнопки "Cart"
+    status: pass
+    
+  - summary: |
+      (OP3)Проверка переключения языков
+    status: pass
+    
+  - summary: |
+      (OP4)Проверка поисковой строки(позитивная)
+    status: fail
+    
+  - summary: |
+      (OP5)Проверка поисковой строки(спец. символ)
+    status: fail
+    
+  - summary: |
+      (OP6)Проверка поисковой строки(скрипт)
+    status: pass
+    
+  - summary: |
+      (OP7)Проверка поисковой строки(кириллица)
+    status: fail
+    
+  - summary: |
+      (OP8)Проверка настройки фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (OP9)Проверка очищения фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (OP10)Проверка настройки фильтра по определенному бренду
+    status: pass
+    
+  - summary: |
+      (OP11)Проверка настройки фильтра по нескольким брендам
+    status: pass
+    
+  - summary: |
+      (OP12)Проверка фильтра по бренду с введнённым наименованием в поисковой
+    status: pass
+    
+  - summary: |
+      (OP13)Проверка чекбокса "In stock"
+    status: fail
+    
+  - summary: |
+      (OP14)Проверка фильтра по цене (минимальная)
+    status: pass
+    
+  - summary: |
+      (OP15)Проверка фильтра по цене (средняя)
+    status: fail
+    
+  - summary: |
+      (OP16)Проверка фильтра по цене (максимальная)
+    status: fail
+    
+  - summary: |
+      (OP17)Проверка фильтра по цене (отрицательное значение)
+    status: fail
+    
+  - summary: |
+      (OP18)Проверка основных элементов UI на грамматические ошибки
+    status: fail
+    
+  - summary: |
+      (OP19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
+    status: fail
+    
+  - summary: |
+      (OP20)Проверка кнопки "Add to Cart" со страницы каталога 
+    status: pass
+    
+  - summary: |
+      (OP21)Проверка кнопки "Add to Cart" со страницы товара 
+    status: pass
+    
+  - summary: |
+      (OP22)Проверка остаётся ли товар в корзине после закрытия и открытия
+      приложения
+    status: fail
+    
+  - summary: |
+      (OP23)Проверка кнопки "Continue shopping"
+    status: pass
+    
+  - summary: |
+      (OP24)Проверка кнопки "Clear cart"
+    status: fail
+    
+  - summary: |
+      (OP25)Проверка кнопки "Chekout"
+    status: pass
+    
+  - summary: |
+      (OP26)Проверка кнопки "Delete" в корзине
+    status: pass
+    
+  - summary: |
+      (OP27)Проверка оформления заказа после удаления одной позиции из корзины
+    status: pass
+    
+  - summary: |
+      (OP28)Проверка очистки корзины после оформления заказа
+    status: fail
+    
+  - summary: |
+      (OP29)Проверка ссылки Hexlet внизу страницы
+    status: pass
+    
+  - summary: |
+      (OP30)Проверка адаптивности интерфейса при изменении разрешения экрана
+    status: pass
+    
+  - summary: |
+      (FF1)Проверка кнопки "Store"
+    status: pass
+    
+  - summary: |
+      (FF2)Проверка кнопки "Cart"
+    status: pass
+    
+  - summary: |
+      (FF3)Проверка переключения языков
+    status: pass
+    
+  - summary: |
+      (FF4)Проверка поисковой строки(позитивная)
+    status: fail
+    
+  - summary: |
+      (FF5)Проверка поисковой строки(спец. символ)
+    status: fail
+    
+  - summary: |
+      (FF6)Проверка поисковой строки(скрипт)
+    status: pass
+    
+  - summary: |
+      (FF7)Проверка поисковой строки(кириллица)
+    status: fail
+    
+  - summary: |
+      (FF8)Проверка настройки фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (FF9)Проверка очищения фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (FF10)Проверка настройки фильтра по определенному бренду
+    status: pass
+    
+  - summary: |
+      (FF11)Проверка настройки фильтра по нескольким брендам
+    status: pass
+    
+  - summary: |
+      (FF12)Проверка фильтра по бренду с введнённым наименованием в поисковой
+    status: pass
+    
+  - summary: |
+      (FF13)Проверка чекбокса "In stock"
+    status: fail
+    
+  - summary: |
+      (FF14)Проверка фильтра по цене (минимальная)
+    status: pass
+    
+  - summary: |
+      (FF15)Проверка фильтра по цене (средняя)
+    status: fail
+    
+  - summary: |
+      (FF16)Проверка фильтра по цене (максимальная)
+    status: fail
+    
+  - summary: |
+      (FF17)Проверка фильтра по цене (отрицательное значение)
+    status: fail
+    
+  - summary: |
+      (FF18)Проверка основных элементов UI на грамматические ошибки
+    status: fail
+    
+  - summary: |
+      (FF19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
+    status: fail
+    
+  - summary: |
+      (FF20)Проверка кнопки "Add to Cart" со страницы каталога 
+    status: pass
+    
+  - summary: |
+      (FF21)Проверка кнопки "Add to Cart" со страницы товара 
+    status: pass
+    
+  - summary: |
+      (FF22)Проверка остаётся ли товар в корзине после закрытия и открытия
+      приложения
+    status: fail
+    
+  - summary: |
+      (FF23)Проверка кнопки "Continue shopping"
+    status: pass
+    
+  - summary: |
+      (FF24)Проверка кнопки "Clear cart"
+    status: fail
+    
+  - summary: |
+      (FF25)Проверка кнопки "Chekout"
+    status: pass
+    
+  - summary: |
+      (FF26)Проверка кнопки "Delete" в корзине
+    status: pass
+    
+  - summary: |
+      (FF27)Проверка оформления заказа после удаления одной позиции из корзины
+    status: pass
+    
+  - summary: |
+      (FF28)Проверка очистки корзины после оформления заказа
+    status: fail
+    
+  - summary: |
+      (FF29)Проверка ссылки Hexlet внизу страницы
+    status: pass
+    
+  - summary: |
+      (FF30)Проверка адаптивности интерфейса при изменении разрешения экрана
+    status: pass
+    
+  - summary: |
+      (M1)Проверка кнопки "Store"
+    status: pass
+    
+  - summary: |
+      (M2)Проверка кнопки "Cart"
+    status: pass
+    
+  - summary: |
+      (M3)Проверка переключения языков
+    status: pass
+    
+  - summary: |
+      (M4)Проверка поисковой строки(позитивная)
+    status: pass
+    
+  - summary: |
+      (M5)Проверка поисковой строки(спец. символ)
+    status: fail
+    
+  - summary: |
+      (M6)Проверка поисковой строки(скрипт)
+    status: pass
+    
+  - summary: |
+      (M7)Проверка поисковой строки(кириллица)
+    status: fail
+    
+  - summary: |
+      (M8)Проверка настройки фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (M9)Проверка очищения фильтра "Category"
+    status: fail
+    
+  - summary: |
+      (M10)Проверка настройки фильтра по определенному бренду
+    status: pass
+    
+  - summary: |
+      (M11)Проверка настройки фильтра по нескольким брендам
+    status: pass
+    
+  - summary: |
+      (M12)Проверка фильтра по бренду с введнённым наименованием в поисковой
+    status: pass
+    
+  - summary: |
+      (M13)Проверка чекбокса "In stock"
+    status: fail
+    
+  - summary: |
+      (M14)Проверка фильтра по цене (минимальная)
+    status: pass
+    
+  - summary: |
+      (M15)Проверка фильтра по цене (средняя)
+    status: fail
+    
+  - summary: |
+      (M16)Проверка фильтра по цене (максимальная)
+    status: fail
+    
+  - summary: |
+      (M17)Проверка фильтра по цене (отрицательное значение)
+    status: fail
+    
+  - summary: |
+      (M18)Проверка основных элементов UI на грамматические ошибки
+    status: fail
+    
+  - summary: |
+      (M19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
+    status: fail
+    
+  - summary: |
+      (M20)Проверка кнопки "Add to Cart" со страницы каталога 
+    status: pass
+    
+  - summary: |
+      (M21)Проверка кнопки "Add to Cart" со страницы товара 
+    status: pass
+    
+  - summary: |
+      (M22)Проверка остаётся ли товар в корзине после закрытия и открытия
+      приложения
+    status: fail
+    
+  - summary: |
+      (M23)Проверка кнопки "Continue shopping"
+    status: pass
+    
+  - summary: |
+      (M24)Проверка кнопки "Clear cart"
+    status: fail
+    
+  - summary: |
+      (M25)Проверка кнопки "Chekout"
+    status: pass
+    
+  - summary: |
+      (M26)Проверка кнопки "Delete" в корзине
+    status: pass
+    
+  - summary: |
+      (M27)Проверка оформления заказа после удаления одной позиции из корзины
+    status: pass
+    
+  - summary: |
+      (M28)Проверка очистки корзины после оформления заказа
+    status: fail
+    
+  - summary: |
+      (M29)Проверка ссылки Hexlet внизу страницы
+    status: pass
+    
+  - summary: |
+      (M30)Проверка адаптивности интерфейса при изменении разрешения экрана
+    status: pass
+    
 bugreports:
   - summary: |
-При поиске конкретного товара элементы интерфейса съезжают
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "iPhone 9"
-  expected-result: |
-    Выдаёт товар iPhone 9
-  actual-result: |
-    Фильтр работает правильно
-    Элементы интерфейса меняют размер, текст смещается
-    Ошибка изображена на скриншоте Багрепорт-13
-
+      При поиске конкретного товара элементы интерфейса съезжают
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "iPhone 9"
+    expected-result: |
+      Выдаёт товар iPhone 9
+    actual-result: |
+      Фильтр работает правильно
+      Элементы интерфейса меняют размер, текст смещается
+      Ошибка изображена на скриншоте Багрепорт-13
+      
   - summary: |
-При вводе спец.символов выдаёт неверный результат
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "@$"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе спец.символов выдаёт неверный результат
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "@$"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-При вводе кириллицы выдаёт неверный результат
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "Айфон"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе кириллицы выдаёт неверный результат
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "Айфон"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. 1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-  expected-result: |
-    Выводит товары определенной категории
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+    expected-result: |
+      Выводит товары определенной категории
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-    3. Вернуть фильтр на все категории
-  expected-result: |
-    Выводит товары всех категорий
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+      3. Вернуть фильтр на все категории
+    expected-result: |
+      Выводит товары всех категорий
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Не работает чек-бокс "In Stock"
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать чек-бокс "In stock"
-    2. Отключить чек-бокс "In stock"
-  expected-result: |
-    Не выводит товар который есть в наличии
-  actual-result: |
-    Выводит весь товар, который есть в наличии
-
+      Не работает чек-бокс "In Stock"
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать чек-бокс "In stock"
+      2. Отключить чек-бокс "In stock"
+    expected-result: |
+      Не выводит товар который есть в наличии
+    actual-result: |
+      Выводит весь товар, который есть в наличии
+      
   - summary: |
-Не работает фильтр по цене (1)
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 1200 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (1)
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 1200 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-Не работает фильтр по цене (2)
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 11190 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (2)
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 11190 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-    Можно ввести отрицательное значение в фильтре по цене
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - -1200 To 11190
-  expected-result: |
-    Нельзя ввести отрицательное значение цены
-  actual-result: |
-    У пользователя есть возможность ввести отрицательную цену
-
+      Можно ввести отрицательное значение в фильтре по цене
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - -1200 To 11190
+    expected-result: |
+      Нельзя ввести отрицательное значение цены
+    actual-result: |
+      У пользователя есть возможность ввести отрицательную цену
+      
   - summary: |
-    Ошибки в написании брендов 
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Проверить все елементы UI на грамматические ошибки
-  expected-result: |
-    В элементах отсутствуют грамматические ошибки
-  actual-result: |
-    Ошибки в написании названий брендов
-    Задвоение названий брендов (Apple и APPle)
-    Описание товаров написано маленькими буквами
-    Ошибка изображена на скриншоте Багрепорт-14
-
+      Ошибки в написании брендов 
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Проверить все елементы UI на грамматические ошибки
+    expected-result: |
+      В элементах отсутствуют грамматические ошибки
+    actual-result: |
+      Ошибки в написании названий брендов
+      Задвоение названий брендов (Apple и APPle)
+      Описание товаров написано маленькими буквами
+      Ошибка изображена на скриншоте Багрепорт-14
+      
   - summary: |
-    Кнопка Previous и Next привязаны к одновременному перелистыванию страницы товаров и брендов
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать кнопку Next
-    2. Нажать кнопку Previous
-  expected-result: |
-    Страницы перелистываются вперед и назад
-  actual-result: |
-    Помимо страницы товаров перелистывается страницы брендов
-    Не все бренды представлены на главной странице
-
+      Кнопка Previous и Next привязаны к одновременному перелистыванию
+      страницы товаров и брендов
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать кнопку Next
+      2. Нажать кнопку Previous
+    expected-result: |
+      Страницы перелистываются вперед и назад
+    actual-result: |
+      Помимо страницы товаров перелистывается страницы брендов
+      Не все бренды представлены на главной странице
+      
   - summary: |
-    Товар не сохраняется в корзине после закрытия и повторного открытия приложения
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9 
-    2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    3. Проверить, что товар находится в корзине
-    4. Закрываем web-приложение
-    5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Товар должен находиться в корзине
-  actual-result: |
-    Корзина пуста
-
+      Товар не сохраняется в корзине после закрытия и повторного открытия
+      приложения
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: >
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9 
+      2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      3. Проверить, что товар находится в корзине
+      4. Закрываем web-приложение
+      5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    expected-result: |
+      Товар должен находиться в корзине
+    actual-result: |
+      Корзина пуста
+      
   - summary: |
-    Товары возвращаются в корзину после очистки корзины
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Clear Cart
-    5. Нажать кнопку Store
-  expected-result: |
-    В корзине не отображается товар, корзина пуста
-  actual-result: |
-    В корзине отображается очищенный товар
-
+      Товары возвращаются в корзину после очистки корзины
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Clear Cart
+      5. Нажать кнопку Store
+    expected-result: |
+      В корзине не отображается товар, корзина пуста
+    actual-result: |
+      В корзине отображается очищенный товар
+      
   - summary: |
-    Корзина не очищается после оформления заказа
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Chekout
-    5. После оформления заказа нажать кнопку Close
-  expected-result: |
-    Корзина пуста, заказ сформирован
-  actual-result: |
-    В корзине остались все товары из заказа
-    Корзину нужно очищать самому
-
+      Корзина не очищается после оформления заказа
+    environment: |
+      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Chekout
+      5. После оформления заказа нажать кнопку Close
+    expected-result: |
+      Корзина пуста, заказ сформирован
+    actual-result: |
+      В корзине остались все товары из заказа
+      Корзину нужно очищать самому
+      
   - summary: |
-При поиске конкретного товара элементы интерфейса съезжают
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "iPhone 9"
-  expected-result: |
-    Выдаёт товар iPhone 9
-  actual-result: |
-    Фильтр работает правильно
-    Элементы интерфейса меняют размер, текст смещается
-    Ошибка изображена на скриншоте Багрепорт-15
-
+      При поиске конкретного товара элементы интерфейса съезжают
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "iPhone 9"
+    expected-result: |
+      Выдаёт товар iPhone 9
+    actual-result: |
+      Фильтр работает правильно
+      Элементы интерфейса меняют размер, текст смещается
+      Ошибка изображена на скриншоте Багрепорт-15
+      
   - summary: |
-При вводе спец.символов выдаёт неверный результат
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "@$"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе спец.символов выдаёт неверный результат
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "@$"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-При вводе кириллицы выдаёт неверный результат
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "Айфон"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе кириллицы выдаёт неверный результат
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "Айфон"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. 1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-  expected-result: |
-    Выводит товары определенной категории
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+    expected-result: |
+      Выводит товары определенной категории
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-    3. Вернуть фильтр на все категории
-  expected-result: |
-    Выводит товары всех категорий
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+      3. Вернуть фильтр на все категории
+    expected-result: |
+      Выводит товары всех категорий
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Не работает чек-бокс "In Stock"
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать чек-бокс "In stock"
-    2. Отключить чек-бокс "In stock"
-  expected-result: |
-    Не выводит товар который есть в наличии
-  actual-result: |
-    Выводит весь товар, который есть в наличии
-
+      Не работает чек-бокс "In Stock"
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать чек-бокс "In stock"
+      2. Отключить чек-бокс "In stock"
+    expected-result: |
+      Не выводит товар который есть в наличии
+    actual-result: |
+      Выводит весь товар, который есть в наличии
+      
   - summary: |
-Не работает фильтр по цене (1)
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 1200 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (1)
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 1200 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-Не работает фильтр по цене (2)
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 11190 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (2)
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 11190 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-    Можно ввести отрицательное значение в фильтре по цене
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - -1200 To 11190
-  expected-result: |
-    Нельзя ввести отрицательное значение цены
-  actual-result: |
-    У пользователя есть возможность ввести отрицательную цену
-
+      Можно ввести отрицательное значение в фильтре по цене
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - -1200 To 11190
+    expected-result: |
+      Нельзя ввести отрицательное значение цены
+    actual-result: |
+      У пользователя есть возможность ввести отрицательную цену
+      
   - summary: |
-    Ошибки в написании брендов 
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Проверить все елементы UI на грамматические ошибки
-  expected-result: |
-    В элементах отсутствуют грамматические ошибки
-  actual-result: |
-    Ошибки в написании названий брендов
-    Задвоение названий брендов (Apple и APPle)
-    Описание товаров написано маленькими буквами
-    Ошибка изображена на скриншоте Багрепорт-16
-
+      Ошибки в написании брендов 
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Проверить все елементы UI на грамматические ошибки
+    expected-result: |
+      В элементах отсутствуют грамматические ошибки
+    actual-result: |
+      Ошибки в написании названий брендов
+      Задвоение названий брендов (Apple и APPle)
+      Описание товаров написано маленькими буквами
+      Ошибка изображена на скриншоте Багрепорт-16
+      
   - summary: |
-    Кнопка Previous и Next привязаны к одновременному перелистыванию страницы товаров и брендов
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать кнопку Next
-    2. Нажать кнопку Previous
-  expected-result: |
-    Страницы перелистываются вперед и назад
-  actual-result: |
-    Помимо страницы товаров перелистывается страницы брендов
-    Не все бренды представлены на главной странице
-
+      Кнопка Previous и Next привязаны к одновременному перелистыванию
+      страницы товаров и брендов
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать кнопку Next
+      2. Нажать кнопку Previous
+    expected-result: |
+      Страницы перелистываются вперед и назад
+    actual-result: |
+      Помимо страницы товаров перелистывается страницы брендов
+      Не все бренды представлены на главной странице
+      
   - summary: |
-    Товар не сохраняется в корзине после закрытия и повторного открытия приложения
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9 
-    2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    3. Проверить, что товар находится в корзине
-    4. Закрываем web-приложение
-    5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Товар должен находиться в корзине
-  actual-result: |
-    Корзина пуста
-
+      Товар не сохраняется в корзине после закрытия и повторного открытия
+      приложения
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: >
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9 
+      2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      3. Проверить, что товар находится в корзине
+      4. Закрываем web-приложение
+      5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    expected-result: |
+      Товар должен находиться в корзине
+    actual-result: |
+      Корзина пуста
+      
   - summary: |
-    Товары возвращаются в корзину после очистки корзины
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Clear Cart
-    5. Нажать кнопку Store
-  expected-result: |
-    В корзине не отображается товар, корзина пуста
-  actual-result: |
-    В корзине отображается очищенный товар
-
+      Товары возвращаются в корзину после очистки корзины
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Clear Cart
+      5. Нажать кнопку Store
+    expected-result: |
+      В корзине не отображается товар, корзина пуста
+    actual-result: |
+      В корзине отображается очищенный товар
+      
   - summary: |
-    Корзина не очищается после оформления заказа
-  environment: |
-    Opera 94.0.4606.38
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Chekout
-    5. После оформления заказа нажать кнопку Close
-  expected-result: |
-    Корзина пуста, заказ сформирован
-  actual-result: |
-    В корзине остались все товары из заказа
-    Корзину нужно очищать самому
-
+      Корзина не очищается после оформления заказа
+    environment: |
+      Opera 94.0.4606.38
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Chekout
+      5. После оформления заказа нажать кнопку Close
+    expected-result: |
+      Корзина пуста, заказ сформирован
+    actual-result: |
+      В корзине остались все товары из заказа
+      Корзину нужно очищать самому
+      
   - summary: |
-При поиске конкретного товара элементы интерфейса съезжают
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "iPhone 9"
-  expected-result: |
-    Выдаёт товар iPhone 9
-  actual-result: |
-    Фильтр работает правильно
-    Элементы интерфейса меняют размер, текст смещается
-    Ошибка изображена на скриншоте Багрепорт-17
-
+      При поиске конкретного товара элементы интерфейса съезжают
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "iPhone 9"
+    expected-result: |
+      Выдаёт товар iPhone 9
+    actual-result: |
+      Фильтр работает правильно
+      Элементы интерфейса меняют размер, текст смещается
+      Ошибка изображена на скриншоте Багрепорт-17
+      
   - summary: |
-При вводе спец.символов выдаёт неверный результат
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "@$"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе спец.символов выдаёт неверный результат
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "@$"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-При вводе кириллицы выдаёт неверный результат
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "Айфон"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе кириллицы выдаёт неверный результат
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "Айфон"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. 1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-  expected-result: |
-    Выводит товары определенной категории
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+    expected-result: |
+      Выводит товары определенной категории
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-    3. Вернуть фильтр на все категории
-  expected-result: |
-    Выводит товары всех категорий
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+      3. Вернуть фильтр на все категории
+    expected-result: |
+      Выводит товары всех категорий
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Не работает чек-бокс "In Stock"
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать чек-бокс "In stock"
-    2. Отключить чек-бокс "In stock"
-  expected-result: |
-    Не выводит товар который есть в наличии
-  actual-result: |
-    Выводит весь товар, который есть в наличии
-
+      Не работает чек-бокс "In Stock"
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать чек-бокс "In stock"
+      2. Отключить чек-бокс "In stock"
+    expected-result: |
+      Не выводит товар который есть в наличии
+    actual-result: |
+      Выводит весь товар, который есть в наличии
+      
   - summary: |
-Не работает фильтр по цене (1)
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 1200 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (1)
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 1200 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-Не работает фильтр по цене (2)
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 11190 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (2)
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 11190 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-    Можно ввести отрицательное значение в фильтре по цене
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - -1200 To 11190
-  expected-result: |
-    Нельзя ввести отрицательное значение цены
-  actual-result: |
-    У пользователя есть возможность ввести отрицательную цену
-
+      Можно ввести отрицательное значение в фильтре по цене
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - -1200 To 11190
+    expected-result: |
+      Нельзя ввести отрицательное значение цены
+    actual-result: |
+      У пользователя есть возможность ввести отрицательную цену
+      
   - summary: |
-    Ошибки в написании брендов 
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Проверить все елементы UI на грамматические ошибки
-  expected-result: |
-    В элементах отсутствуют грамматические ошибки
-  actual-result: |
-    Ошибки в написании названий брендов
-    Задвоение названий брендов (Apple и APPle)
-    Описание товаров написано маленькими буквами
-    Ошибка изображена на скриншоте Багрепорт-18
-
+      Ошибки в написании брендов 
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Проверить все елементы UI на грамматические ошибки
+    expected-result: |
+      В элементах отсутствуют грамматические ошибки
+    actual-result: |
+      Ошибки в написании названий брендов
+      Задвоение названий брендов (Apple и APPle)
+      Описание товаров написано маленькими буквами
+      Ошибка изображена на скриншоте Багрепорт-18
+      
   - summary: |
-    Кнопка Previous и Next привязаны к одновременному перелистыванию страницы товаров и брендов
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать кнопку Next
-    2. Нажать кнопку Previous
-  expected-result: |
-    Страницы перелистываются вперед и назад
-  actual-result: |
-    Помимо страницы товаров перелистывается страницы брендов
-    Не все бренды представлены на главной странице
-
+      Кнопка Previous и Next привязаны к одновременному перелистыванию
+      страницы товаров и брендов
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать кнопку Next
+      2. Нажать кнопку Previous
+    expected-result: |
+      Страницы перелистываются вперед и назад
+    actual-result: |
+      Помимо страницы товаров перелистывается страницы брендов
+      Не все бренды представлены на главной странице
+      
   - summary: |
-    Товар не сохраняется в корзине после закрытия и повторного открытия приложения
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9 
-    2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    3. Проверить, что товар находится в корзине
-    4. Закрываем web-приложение
-    5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Товар должен находиться в корзине
-  actual-result: |
-    Корзина пуста
-
+      Товар не сохраняется в корзине после закрытия и повторного открытия
+      приложения
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: >
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9 
+      2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      3. Проверить, что товар находится в корзине
+      4. Закрываем web-приложение
+      5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    expected-result: |
+      Товар должен находиться в корзине
+    actual-result: |
+      Корзина пуста
+      
   - summary: |
-    Товары возвращаются в корзину после очистки корзины
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Clear Cart
-    5. Нажать кнопку Store
-  expected-result: |
-    В корзине не отображается товар, корзина пуста
-  actual-result: |
-    В корзине отображается очищенный товар
-
+      Товары возвращаются в корзину после очистки корзины
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Clear Cart
+      5. Нажать кнопку Store
+    expected-result: |
+      В корзине не отображается товар, корзина пуста
+    actual-result: |
+      В корзине отображается очищенный товар
+      
   - summary: |
-    Корзина не очищается после оформления заказа
-  environment: |
-    Firefox 108.0.2 (32-разрядный)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Chekout
-    5. После оформления заказа нажать кнопку Close
-  expected-result: |
-    Корзина пуста, заказ сформирован
-  actual-result: |
-    В корзине остались все товары из заказа
-    Корзину нужно очищать самому
-
+      Корзина не очищается после оформления заказа
+    environment: |
+      Firefox 108.0.2 (32-разрядный)
+      ОС Windows 10 Pro
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Chekout
+      5. После оформления заказа нажать кнопку Close
+    expected-result: |
+      Корзина пуста, заказ сформирован
+    actual-result: |
+      В корзине остались все товары из заказа
+      Корзину нужно очищать самому
+      
   - summary: |
-При поиске конкретного товара элементы интерфейса съезжают
-  environment: |
-    Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "iPhone 9"
-  expected-result: |
-    Выдаёт товар iPhone 9
-  actual-result: |
-    Фильтр работает правильно
-    Элементы интерфейса меняют размер, текст смещается
-    Ошибка изображена на скриншоте Багрепорт-19
-
+      При поиске конкретного товара элементы интерфейса съезжают
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "iPhone 9"
+    expected-result: |
+      Выдаёт товар iPhone 9
+    actual-result: |
+      Фильтр работает правильно
+      Элементы интерфейса меняют размер, текст смещается
+      Ошибка изображена на скриншоте Багрепорт-19
+      
   - summary: |
-При вводе спец.символов выдаёт неверный результат
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "@$"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе спец.символов выдаёт неверный результат
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "@$"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-При вводе кириллицы выдаёт неверный результат
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Вписать в поисковую строку запрос "Айфон"
-  expected-result: |
-    На странице каталога отображается надпись "Ничего не найдено!"
-  actual-result: |
-    Выдаёт весь товар каталога
-
+      При вводе кириллицы выдаёт неверный результат
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Вписать в поисковую строку запрос "Айфон"
+    expected-result: |
+      На странице каталога отображается надпись "Ничего не найдено!"
+    actual-result: |
+      Выдаёт весь товар каталога
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. 1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-  expected-result: |
-    Выводит товары определенной категории
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+    expected-result: |
+      Выводит товары определенной категории
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Пропадает возможность перелистывать страницы
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Кликнуть кнопку "Category"
-    2. В развернувшемся списке выбрать "smartphones"
-    3. Вернуть фильтр на все категории
-  expected-result: |
-    Выводит товары всех категорий
-  actual-result: |
-    Фильтр работает правильно
-    Пропадает кнопка Next
-
+      Пропадает возможность перелистывать страницы
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Кликнуть кнопку "Category"
+      2. В развернувшемся списке выбрать "smartphones"
+      3. Вернуть фильтр на все категории
+    expected-result: |
+      Выводит товары всех категорий
+    actual-result: |
+      Фильтр работает правильно
+      Пропадает кнопка Next
+      
   - summary: |
-Не работает чек-бокс "In Stock"
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Нажать чек-бокс "In stock"
-    2. Отключить чек-бокс "In stock"
-  expected-result: |
-    Не выводит товар который есть в наличии
-  actual-result: |
-    Выводит весь товар, который есть в наличии
-
+      Не работает чек-бокс "In Stock"
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Нажать чек-бокс "In stock"
+      2. Отключить чек-бокс "In stock"
+    expected-result: |
+      Не выводит товар который есть в наличии
+    actual-result: |
+      Выводит весь товар, который есть в наличии
+      
   - summary: |
-Не работает фильтр по цене (1)
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 1200 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (1)
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 1200 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-Не работает фильтр по цене (2)
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - 11190 To 11190
-  expected-result: |
-    Выдаёт товары в заданном диапозоне цен
-  actual-result: |
-    Выводит весь товар
-
+      Не работает фильтр по цене (2)
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - 11190 To 11190
+    expected-result: |
+      Выдаёт товары в заданном диапозоне цен
+    actual-result: |
+      Выводит весь товар
+      
   - summary: |
-    Можно ввести отрицательное значение в фильтре по цене
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Ввести диапозон цены From - -1200 To 11190
-  expected-result: |
-    Нельзя ввести отрицательное значение цены
-  actual-result: |
-    У пользователя есть возможность ввести отрицательную цену
-
+      Можно ввести отрицательное значение в фильтре по цене
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Ввести диапозон цены From - -1200 To 11190
+    expected-result: |
+      Нельзя ввести отрицательное значение цены
+    actual-result: |
+      У пользователя есть возможность ввести отрицательную цену
+      
   - summary: |
-    Ошибки в написании брендов 
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Проверить все елементы UI на грамматические ошибки
-  expected-result: |
-    В элементах отсутствуют грамматические ошибки
-  actual-result: |
-    Ошибки в написании названий брендов
-    Задвоение названий брендов (Apple и APPle)
-    Описание товаров написано маленькими буквами
-    Ошибка изображена на скриншоте Багрепорт-20
-
+      Ошибки в написании брендов 
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Проверить все елементы UI на грамматические ошибки
+    expected-result: |
+      В элементах отсутствуют грамматические ошибки
+    actual-result: |
+      Ошибки в написании названий брендов
+      Задвоение названий брендов (Apple и APPle)
+      Описание товаров написано маленькими буквами
+      Ошибка изображена на скриншоте Багрепорт-20
+      
   - summary: |
-    Кнопка Previous и Next привязаны к одновременному перелистыванию страницы товаров и брендов
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Нажать кнопку Next
-    2. Нажать кнопку Previous
-  expected-result: |
-    Страницы перелистываются вперед и назад
-  actual-result: |
-    Помимо страницы товаров перелистывается страницы брендов
-    Не все бренды представлены на главной странице
-
+      Кнопка Previous и Next привязаны к одновременному перелистыванию
+      страницы товаров и брендов
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Нажать кнопку Next
+      2. Нажать кнопку Previous
+    expected-result: |
+      Страницы перелистываются вперед и назад
+    actual-result: |
+      Помимо страницы товаров перелистывается страницы брендов
+      Не все бренды представлены на главной странице
+      
   - summary: |
-    Товар не сохраняется в корзине после закрытия и повторного открытия приложения
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9 
-    2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    3. Проверить, что товар находится в корзине
-    4. Закрываем web-приложение
-    5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Товар должен находиться в корзине
-  actual-result: |
-    Корзина пуста
-
+      Товар не сохраняется в корзине после закрытия и повторного открытия
+      приложения
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: >
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9 
+      2. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      3. Проверить, что товар находится в корзине
+      4. Закрываем web-приложение
+      5. Открываем web-приложение по ссылке https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    expected-result: |
+      Товар должен находиться в корзине
+    actual-result: |
+      Корзина пуста
+      
   - summary: |
-    Товары возвращаются в корзину после очистки корзины
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Clear Cart
-    5. Нажать кнопку Store
-  expected-result: |
-    В корзине не отображается товар, корзина пуста
-  actual-result: |
-    В корзине отображается очищенный товар
-
+      Товары возвращаются в корзину после очистки корзины
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Clear Cart
+      5. Нажать кнопку Store
+    expected-result: |
+      В корзине не отображается товар, корзина пуста
+    actual-result: |
+      В корзине отображается очищенный товар
+      
   - summary: |
-    Корзина не очищается после оформления заказа
-  environment: |
-    Chrome   108.0.5359.128
-    ОС Android 13
-  steps-to-reproduce: |
-    1. Нажать на кнопку Add to Cart на товаре iPhone 9
-    2. Нажать на кнопку Add to Cart на товаре iPhone X
-    3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
-    4. Нажить на кнопку Chekout
-    5. После оформления заказа нажать кнопку Close
-  expected-result: |
-    Корзина пуста, заказ сформирован
-  actual-result: |
-    В корзине остались все товары из заказа
-    Корзину нужно очищать самому
+      Корзина не очищается после оформления заказа
+    environment: |
+      Chrome   108.0.5359.128
+      ОС Android 13
+    steps-to-reproduce: |
+      1. Нажать на кнопку Add to Cart на товаре iPhone 9
+      2. Нажать на кнопку Add to Cart на товаре iPhone X
+      3. Нажать на кнопку Cart в верхнем меню и перейти в корзину
+      4. Нажить на кнопку Chekout
+      5. После оформления заказа нажать кнопку Close
+    expected-result: |
+      Корзина пуста, заказ сформирован
+    actual-result: |
+      В корзине остались все товары из заказа
+      Корзину нужно очищать самому
