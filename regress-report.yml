@@ -11,23 +11,7 @@ test-cases:
   - summary: |
       (CH3)Проверка переключения языков
     status: pass
-    
-  - summary: |
-      (CH4)Проверка поисковой строки(позитивная)
-    status: fail
-    
-  - summary: |
-      (CH5)Проверка поисковой строки(спец. символ)
-    status: fail
-    
-  - summary: |
-      (CH6)Проверка поисковой строки(скрипт)
-    status: pass
-    
-  - summary: |
-      (CH7)Проверка поисковой строки(кириллица)
-    status: fail
-    
+
   - summary: |
       (CH8)Проверка настройки фильтра "Category"
     status: fail
@@ -51,23 +35,7 @@ test-cases:
   - summary: |
       (CH13)Проверка чекбокса "In stock"
     status: fail
-    
-  - summary: |
-      (CH14)Проверка фильтра по цене (минимальная)
-    status: pass
-    
-  - summary: |
-      (CH15)Проверка фильтра по цене (средняя)
-    status: fail
-    
-  - summary: |
-      (CH16)Проверка фильтра по цене (максимальная)
-    status: fail
-    
-  - summary: |
-      (CH17)Проверка фильтра по цене (отрицательное значение)
-    status: fail
-    
+
   - summary: |
       (CH18)Проверка основных элементов UI на грамматические ошибки
     status: fail
@@ -132,23 +100,7 @@ test-cases:
   - summary: |
       (OP3)Проверка переключения языков
     status: pass
-    
-  - summary: |
-      (OP4)Проверка поисковой строки(позитивная)
-    status: fail
-    
-  - summary: |
-      (OP5)Проверка поисковой строки(спец. символ)
-    status: fail
-    
-  - summary: |
-      (OP6)Проверка поисковой строки(скрипт)
-    status: pass
-    
-  - summary: |
-      (OP7)Проверка поисковой строки(кириллица)
-    status: fail
-    
+
   - summary: |
       (OP8)Проверка настройки фильтра "Category"
     status: fail
@@ -172,23 +124,7 @@ test-cases:
   - summary: |
       (OP13)Проверка чекбокса "In stock"
     status: fail
-    
-  - summary: |
-      (OP14)Проверка фильтра по цене (минимальная)
-    status: pass
-    
-  - summary: |
-      (OP15)Проверка фильтра по цене (средняя)
-    status: fail
-    
-  - summary: |
-      (OP16)Проверка фильтра по цене (максимальная)
-    status: fail
-    
-  - summary: |
-      (OP17)Проверка фильтра по цене (отрицательное значение)
-    status: fail
-    
+
   - summary: |
       (OP18)Проверка основных элементов UI на грамматические ошибки
     status: fail
@@ -253,23 +189,7 @@ test-cases:
   - summary: |
       (FF3)Проверка переключения языков
     status: pass
-    
-  - summary: |
-      (FF4)Проверка поисковой строки(позитивная)
-    status: fail
-    
-  - summary: |
-      (FF5)Проверка поисковой строки(спец. символ)
-    status: fail
-    
-  - summary: |
-      (FF6)Проверка поисковой строки(скрипт)
-    status: pass
-    
-  - summary: |
-      (FF7)Проверка поисковой строки(кириллица)
-    status: fail
-    
+
   - summary: |
       (FF8)Проверка настройки фильтра "Category"
     status: fail
@@ -293,23 +213,7 @@ test-cases:
   - summary: |
       (FF13)Проверка чекбокса "In stock"
     status: fail
-    
-  - summary: |
-      (FF14)Проверка фильтра по цене (минимальная)
-    status: pass
-    
-  - summary: |
-      (FF15)Проверка фильтра по цене (средняя)
-    status: fail
-    
-  - summary: |
-      (FF16)Проверка фильтра по цене (максимальная)
-    status: fail
-    
-  - summary: |
-      (FF17)Проверка фильтра по цене (отрицательное значение)
-    status: fail
-    
+
   - summary: |
       (FF18)Проверка основных элементов UI на грамматические ошибки
     status: fail
@@ -374,23 +278,7 @@ test-cases:
   - summary: |
       (M3)Проверка переключения языков
     status: pass
-    
-  - summary: |
-      (M4)Проверка поисковой строки(позитивная)
-    status: pass
-    
-  - summary: |
-      (M5)Проверка поисковой строки(спец. символ)
-    status: fail
-    
-  - summary: |
-      (M6)Проверка поисковой строки(скрипт)
-    status: pass
-    
-  - summary: |
-      (M7)Проверка поисковой строки(кириллица)
-    status: fail
-    
+
   - summary: |
       (M8)Проверка настройки фильтра "Category"
     status: fail
@@ -414,23 +302,7 @@ test-cases:
   - summary: |
       (M13)Проверка чекбокса "In stock"
     status: fail
-    
-  - summary: |
-      (M14)Проверка фильтра по цене (минимальная)
-    status: pass
-    
-  - summary: |
-      (M15)Проверка фильтра по цене (средняя)
-    status: fail
-    
-  - summary: |
-      (M16)Проверка фильтра по цене (максимальная)
-    status: fail
-    
-  - summary: |
-      (M17)Проверка фильтра по цене (отрицательное значение)
-    status: fail
-    
+
   - summary: |
       (M18)Проверка основных элементов UI на грамматические ошибки
     status: fail
@@ -522,20 +394,6 @@ bugreports:
       На странице каталога отображается надпись "Ничего не найдено!"
     actual-result: |
       Выдаёт весь товар каталога
-      
-  - summary: |
-      Пропадает возможность перелистывать страницы
-    environment: |
-      Google Chrome   108.0.5359.125 (Официальная сборка), (64 бит)
-      ОС Windows 10 Pro
-    steps-to-reproduce: |
-      1. Кликнуть кнопку "Category"
-      2. В развернувшемся списке выбрать "smartphones"
-    expected-result: |
-      Выводит товары определенной категории
-    actual-result: |
-      Фильтр работает правильно
-      Пропадает кнопка Next
       
   - summary: |
       Пропадает возможность перелистывать страницы
@@ -703,21 +561,7 @@ bugreports:
       На странице каталога отображается надпись "Ничего не найдено!"
     actual-result: |
       Выдаёт весь товар каталога
-      
-  - summary: |
-      Пропадает возможность перелистывать страницы
-    environment: |
-      Opera 94.0.4606.38
-      ОС Windows 10 Pro
-    steps-to-reproduce: |
-      1. Кликнуть кнопку "Category"
-      2. В развернувшемся списке выбрать "smartphones"
-    expected-result: |
-      Выводит товары определенной категории
-    actual-result: |
-      Фильтр работает правильно
-      Пропадает кнопка Next
-      
+
   - summary: |
       Пропадает возможность перелистывать страницы
     environment: |
@@ -884,21 +728,7 @@ bugreports:
       На странице каталога отображается надпись "Ничего не найдено!"
     actual-result: |
       Выдаёт весь товар каталога
-      
-  - summary: |
-      Пропадает возможность перелистывать страницы
-    environment: |
-      Firefox 108.0.2 (32-разрядный)
-      ОС Windows 10 Pro
-    steps-to-reproduce: |
-      1. Кликнуть кнопку "Category"
-      2. В развернувшемся списке выбрать "smartphones"
-    expected-result: |
-      Выводит товары определенной категории
-    actual-result: |
-      Фильтр работает правильно
-      Пропадает кнопка Next
-      
+
   - summary: |
       Пропадает возможность перелистывать страницы
     environment: |
@@ -1065,21 +895,7 @@ bugreports:
       На странице каталога отображается надпись "Ничего не найдено!"
     actual-result: |
       Выдаёт весь товар каталога
-      
-  - summary: |
-      Пропадает возможность перелистывать страницы
-    environment: |
-      Chrome   108.0.5359.128
-      ОС Android 13
-    steps-to-reproduce: |
-      1. Кликнуть кнопку "Category"
-      2. В развернувшемся списке выбрать "smartphones"
-    expected-result: |
-      Выводит товары определенной категории
-    actual-result: |
-      Фильтр работает правильно
-      Пропадает кнопка Next
-      
+
   - summary: |
       Пропадает возможность перелистывать страницы
     environment: |
