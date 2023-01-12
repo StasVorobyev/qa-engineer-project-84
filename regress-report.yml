@@ -1,11 +1,11 @@
 ---
 test-cases:
   - summary: |
-      (CH1)Проверка кнопки "Store"
+      (CH1)Проверка открытия "Store"
     status: pass
     
   - summary: |
-      (CH2)Проверка кнопки "Cart"
+      (CH2)Проверка открытия "Cart"
     status: pass
     
   - summary: |
@@ -14,11 +14,11 @@ test-cases:
 
   - summary: |
       (CH8)Проверка настройки фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (CH9)Проверка очищения фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (CH10)Проверка настройки фильтра по определенному бренду
@@ -37,19 +37,19 @@ test-cases:
     status: fail
 
   - summary: |
-      (CH18)Проверка основных элементов UI на грамматические ошибки
+      (CH18)Проверка списка брендов на задвоение
     status: fail
     
   - summary: |
       (CH19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-    status: fail
-    
-  - summary: |
-      (CH20)Проверка кнопки "Add to Cart" со страницы каталога 
     status: pass
     
   - summary: |
-      (CH21)Проверка кнопки "Add to Cart" со страницы товара 
+      (CH20)Проверка добавления товара в Корзину из каталога
+    status: pass
+    
+  - summary: |
+      (CH21)Проверка добавления товара в Корзину со страницы товара 
     status: pass
     
   - summary: |
@@ -58,19 +58,19 @@ test-cases:
     status: fail
     
   - summary: |
-      (CH23)Проверка кнопки "Continue shopping"
+      (CH23)Проверка открытия каталога при нажатии "Continue shopping"
     status: pass
     
   - summary: |
-      (CH24)Проверка кнопки "Clear cart"
+      (CH24)Проверка очистки Корзины
     status: fail
     
   - summary: |
-      (CH25)Проверка кнопки "Chekout"
+      (CH25)Проверка оформления заказа
     status: pass
     
   - summary: |
-      (CH26)Проверка кнопки "Delete" в корзине
+      (CH26)Проверка удаления товара из Корзины
     status: pass
     
   - summary: |
@@ -90,11 +90,11 @@ test-cases:
     status: pass
     
   - summary: |
-      (OP1)Проверка кнопки "Store"
+      (OP1)Проверка открытия "Store"
     status: pass
     
   - summary: |
-      (OP2)Проверка кнопки "Cart"
+      (OP2)Проверка открытия "Cart"
     status: pass
     
   - summary: |
@@ -103,11 +103,11 @@ test-cases:
 
   - summary: |
       (OP8)Проверка настройки фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (OP9)Проверка очищения фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (OP10)Проверка настройки фильтра по определенному бренду
@@ -126,19 +126,19 @@ test-cases:
     status: fail
 
   - summary: |
-      (OP18)Проверка основных элементов UI на грамматические ошибки
+      (OP18)Проверка списка брендов на задвоение
     status: fail
     
   - summary: |
       (OP19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-    status: fail
-    
-  - summary: |
-      (OP20)Проверка кнопки "Add to Cart" со страницы каталога 
     status: pass
     
   - summary: |
-      (OP21)Проверка кнопки "Add to Cart" со страницы товара 
+      (OP20)Проверка добавления товара в Корзину из каталога
+    status: pass
+    
+  - summary: |
+      (OP21)Проверка добавления товара в Корзину со страницы товара 
     status: pass
     
   - summary: |
@@ -147,19 +147,19 @@ test-cases:
     status: fail
     
   - summary: |
-      (OP23)Проверка кнопки "Continue shopping"
+      (OP23)Проверка открытия каталога при нажатии "Continue shopping"
     status: pass
     
   - summary: |
-      (OP24)Проверка кнопки "Clear cart"
+      (OP24)Проверка очистки Корзины
     status: fail
     
   - summary: |
-      (OP25)Проверка кнопки "Chekout"
+      (OP25)Проверка оформления заказа
     status: pass
     
   - summary: |
-      (OP26)Проверка кнопки "Delete" в корзине
+      (OP26)Проверка удаления товара из Корзины
     status: pass
     
   - summary: |
@@ -179,11 +179,11 @@ test-cases:
     status: pass
     
   - summary: |
-      (FF1)Проверка кнопки "Store"
+      (FF1)Проверка открытия "Store"
     status: pass
     
   - summary: |
-      (FF2)Проверка кнопки "Cart"
+      (FF2)Проверка открытия "Cart"
     status: pass
     
   - summary: |
@@ -192,11 +192,11 @@ test-cases:
 
   - summary: |
       (FF8)Проверка настройки фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (FF9)Проверка очищения фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (FF10)Проверка настройки фильтра по определенному бренду
@@ -215,19 +215,19 @@ test-cases:
     status: fail
 
   - summary: |
-      (FF18)Проверка основных элементов UI на грамматические ошибки
+      (FF18)Проверка списка брендов на задвоение
     status: fail
     
   - summary: |
       (FF19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-    status: fail
-    
-  - summary: |
-      (FF20)Проверка кнопки "Add to Cart" со страницы каталога 
     status: pass
     
   - summary: |
-      (FF21)Проверка кнопки "Add to Cart" со страницы товара 
+      (FF20)Проверка добавления товара в Корзину из каталога
+    status: pass
+    
+  - summary: |
+      (FF21)Проверка добавления товара в Корзину со страницы товара 
     status: pass
     
   - summary: |
@@ -236,19 +236,19 @@ test-cases:
     status: fail
     
   - summary: |
-      (FF23)Проверка кнопки "Continue shopping"
+      (FF23)Проверка открытия каталога при нажатии "Continue shopping"
     status: pass
     
   - summary: |
-      (FF24)Проверка кнопки "Clear cart"
+      (FF24)Проверка очистки Корзины
     status: fail
     
   - summary: |
-      (FF25)Проверка кнопки "Chekout"
+      (FF25)Проверка оформления заказа
     status: pass
     
   - summary: |
-      (FF26)Проверка кнопки "Delete" в корзине
+      (FF26)Проверка удаления товара из Корзины
     status: pass
     
   - summary: |
@@ -268,11 +268,11 @@ test-cases:
     status: pass
     
   - summary: |
-      (M1)Проверка кнопки "Store"
+      (M1)Проверка открытия "Store"
     status: pass
     
   - summary: |
-      (M2)Проверка кнопки "Cart"
+      (M2)Проверка открытия "Cart"
     status: pass
     
   - summary: |
@@ -281,11 +281,11 @@ test-cases:
 
   - summary: |
       (M8)Проверка настройки фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (M9)Проверка очищения фильтра "Category"
-    status: fail
+    status: pass
     
   - summary: |
       (M10)Проверка настройки фильтра по определенному бренду
@@ -304,19 +304,19 @@ test-cases:
     status: fail
 
   - summary: |
-      (M18)Проверка основных элементов UI на грамматические ошибки
+      (M18)Проверка списка брендов на задвоение
     status: fail
     
   - summary: |
       (M19)Проверка перелистывания страниц каталога (кнопки Previous, Next) 
-    status: fail
-    
-  - summary: |
-      (M20)Проверка кнопки "Add to Cart" со страницы каталога 
     status: pass
     
   - summary: |
-      (M21)Проверка кнопки "Add to Cart" со страницы товара 
+      (M20)Проверка добавления товара в Корзину из каталога
+    status: pass
+    
+  - summary: |
+      (M21)Проверка добавления товара в Корзину со страницы товара 
     status: pass
     
   - summary: |
@@ -325,19 +325,19 @@ test-cases:
     status: fail
     
   - summary: |
-      (M23)Проверка кнопки "Continue shopping"
+      (M23)Проверка открытия каталога при нажатии "Continue shopping"
     status: pass
     
   - summary: |
-      (M24)Проверка кнопки "Clear cart"
+      (M24)Проверка очистки Корзины
     status: fail
     
   - summary: |
-      (M25)Проверка кнопки "Chekout"
+      (M25)Проверка оформления заказа
     status: pass
     
   - summary: |
-      (M26)Проверка кнопки "Delete" в корзине
+      (M26)Проверка удаления товара из Корзины
     status: pass
     
   - summary: |
